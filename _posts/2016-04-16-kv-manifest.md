@@ -6,10 +6,9 @@ comments:   true
 categories: articles
 ---
 
+This manifesto is a dynamic conflicts resolution, and decision making instrument of KV company.
 
-## <img style="height: 1.96em; vertical-align: middle; margin-bottom: 9px;" src="/res/kv.svg"/>MANIFESTO
-
-This **manifesto** is a dynamic conflicts resolution, and decision making instrument of KV company.
+---
 
 ## US
 
@@ -17,22 +16,32 @@ We are a company of two collegues.
 
 We make predictable full-stack websites, with predictable deadlines, and resources.
 
+---
+
 ## CLIENTS
 
 Anyone with hard problems. We are ready to work with each and every client.
+
+---
 
 ## PLACE
 
 We can know each other, or you can know us either by [github](https://github.com/naissur), or common projects.
 
+---
+
 ## PRICE
 
 The cost is **30%** higher than average on the freelance market, or individual agencies.
+
+---
 
 ## GOAL
 
 To join forces: in making what is **in our common interests**; and **avoid making thigs which any one of us dislikes**.
 
+
+---
 
 ## OUR PRINCIPLES AND DEFINITIONS
 
@@ -47,6 +56,8 @@ To join forces: in making what is **in our common interests**; and **avoid makin
 - **Problem criteria**: *bounded, predictable* risks and *unbounded, unpredictable benefits*
 - When this document fails to resolve a conflict, the desicion is first made by the client, then by the CEO.
 
+---
+
 ## OUR TECHNOLOGY STACK
 
 Front-end: **javascript/React.js**
@@ -54,6 +65,8 @@ Front-end: **javascript/React.js**
 Back-end (if needed): **elixir/OTP**
 
 Design: **Sketch**
+
+---
 
 ## CONTACT US
 

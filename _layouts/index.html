@@ -1,72 +1,67 @@
 <!doctype html>
 <html>
   <head>
-    <title>Naissur Coding</title>
+    <title>KV - Key Value</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <meta charset="utf-8"> 
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:image" content="http://en.gravatar.com/userimage/98692382/a61dda542df096983029367042bf9a19.jpg?size=200"/>
-    <meta property="og:title" content="Naissur Codes"/>
-    <meta name="description" content="Currently I make predictable front-end, which solves problems in a new way, doing maths, composing and recording music. And overall: creating working, beautiful things." />
-    <meta property="og:url" content="http://naissur.github.io/"/>
-    <meta property="og:site_name" content="Vlad Aituganov's Blog"/>
+    <meta property="og:image" content="http://key-value.org/res/kv.png"/>
+    <meta property="og:title" content="KV - Key Value"/>
+    <meta name="description" content="Key Value Company" />
+    <meta property="og:url" content="http://key-value.org/"/>
+    <meta property="og:site_name" content="Key Value Company"/>
     <meta property="og:type" content="blog"/>
   </head>
   <body>
     <div class="page-wrapper">
-      <div class="intro">
-        <h1>Hello! I'm Vlad Aituganov <br/>(aka Naissur).</h1>
-        <hr/>
-        <p>
-          Currently I make <b>predictable front-end</b>, which solves problems in a new way, doing maths, composing and recording music.
-          <br/>
-          And overall: creating working, beautiful things.
-          <br/>
-          <br/>
-          This is my website, and blog.
-        </p>
-
-      </div>
-
+      <a href="/" style="text-decoration: none">
+        <img src="/res/kv.svg"/>
+      </a>
+      <br />
+      <center>
+        We are <b>Key Value</b> - a company of two collegues,
+        making full-stack websites.
+        <br/>
+        With predictable deadlines, and resources.
+      </center>
       <br/>
-      <hr/>
 
-      <h2>
-        Works
-      </h2>
-
-      <a href="http://ec2-35-157-217-245.eu-central-1.compute.amazonaws.com/">Personal Accounting</a>
-
+      <a href="http://key-value.org:4001/articles/2017/03/16/kv-manifest.html">Our manifesto</a>
       <br/>
-      <br/>
-      <hr/>
-
-      <h2>
-        Articles
-      </h2>
-
-      <ul>
-        {% for post in site.posts %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-      <br/>
-      <hr/>
-      <br/>
-      <b>email: </b><a href="mailto:vlad.aituganov@gmail.com?Subject=Business">vlad.aituganov@gmail.com</a>
+      <a href="https://github.com/kv-key-value">
+        Github
+      </a>
     </div>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-93929325-1', 'auto');
-      ga('send', 'pageview');
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (d, w, c) {
+          (w[c] = w[c] || []).push(function() {
+              try {
+                  w.yaCounter43625699 = new Ya.Metrika({
+                      id:43625699,
+                      clickmap:true,
+                      trackLinks:true,
+                      accurateTrackBounce:true,
+                      webvisor:true
+                  });
+              } catch(e) { }
+          });
 
+          var n = d.getElementsByTagName("script")[0],
+              s = d.createElement("script"),
+              f = function () { n.parentNode.insertBefore(s, n); };
+          s.type = "text/javascript";
+          s.async = true;
+          s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+          if (w.opera == "[object Opera]") {
+              d.addEventListener("DOMContentLoaded", f, false);
+          } else { f(); }
+      })(document, window, "yandex_metrika_callbacks");
     </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/43625699" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
   </body>
 </html>

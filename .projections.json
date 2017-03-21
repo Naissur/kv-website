@@ -1,0 +1,14 @@
+{
+  "_posts/*.md": {
+    "type": "post",
+    "template": [
+      "---",
+      "layout: post",
+      "title:  {}",
+      "date:   <DATE>",
+      "comments:   true",
+      "categories: articles",
+      "---"
+    ]
+  }
+}

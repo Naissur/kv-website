@@ -40,17 +40,6 @@ body, html{
   }
 }
 
-body{
-  background-position: 0px;
-  background: url("../res/pattern_3.png");
-  image-rendering: pixelated;
-  background-attachment: fixed;
-  word-break: break-word;
-
-  animation-name: background;
-  animation-duration: 4s;
-}
-
 .index-page-link {
   cursor: pointer;
   text-align: left;
@@ -62,7 +51,7 @@ a {
 
 b {
   font-size: 1.0em;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 hr {
@@ -70,7 +59,9 @@ hr {
   border-top: 0;
   border-right: 0;
   border-left: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+
+  margin: 16px 0px;
 }
 
 ul {
@@ -104,8 +95,8 @@ h1{
 }
 
 h2{
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 8px;
+  padding-bottom: 16px;
   padding-right: 30px;
   padding-left: 30px;
 
@@ -130,7 +121,7 @@ h3{
 p{
   text-align: left;
   margin: auto;
-  margin-top: 36px;
+  margin-top: 16px;
   max-width: 660px;
   padding-right: 50px;
   padding-left: 50px;
@@ -146,11 +137,12 @@ p{
   margin-bottom: 150px;
   max-width: 1000px;
 
-  padding: 16px;
   padding-bottom: 24px;
+  padding-top: 24px;
 
   background-color: white;
-  box-shadow: #000 0px 12px 40px;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
 
   font-weight: 300;
   color: rgba(0,0,0,0.8);
