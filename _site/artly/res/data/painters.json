@@ -1,0 +1,80 @@
+[
+            {
+				"id": 0,
+			    "name": "Leonardo Da Vinci",
+				"epoch": "Renaissance",
+				"genre": "High Renaissance",
+				"bio": " Leonardo di ser Piero da Vinci was an Italian polymath, painter, sculptor, architect, musician, mathematician, engineer, inventor, anatomist, geologist, cartographer, botanist, and writer. He is widely considered to be one of the greatest painters of all time and perhaps the most diversely talented person ever to have lived. His genius, perhaps more than that of any other figure, epitomized the Renaissance humanist ideal.",
+				"img": "/res/leonardo-self.jpg",
+				"gallery": [
+					"/res/vinci_01.jpg",
+					"/res/vinci_02.jpg",
+					"/res/vinci_03.jpg"
+				]
+			},
+			{
+				"id": 1,
+				"name": "Claude Monet",
+				"genre": "Impressionism",
+				"epoch": "Modernism",
+				"bio": "Oscar-Claude Monet (14 November 1840 – 5 December 1926) was a founder of French Impressionist painting, and the most consistent and prolific practitioner of the movement\"s philosophy of expressing one\"s perceptions before nature, especially as applied to plein-air landscape painting. The term \"Impressionism\" is derived from the title of his painting Impression, soleil levant (Impression, Sunrise), which was exhibited in 1874 in the first of the independent exhibitions mounted by Monet and his associates as an alternative to the Salon de Paris.",
+				"img": "http://2.bp.blogspot.com/_qcuftpB9Hx8/TGB-JshlhDI/AAAAAAAACHo/92Li6XxfLek/s1600/Claude+Monet.jpg",
+				"gallery": [
+					"http://www.monetalia.com/paintings/large/monet-water-lilies-15.jpg",
+					"http://www.printdigital.ru/img/mone/claudemonetp013.jpg",
+					"http://i.imgur.com/DuElKfW.jpg"
+				]
+			} ,
+			{
+				"id": 2,
+				"genre": "Avant-garde",
+				"epoch": "Modernism",
+				"name": "Kazimir Malevich",
+				"bio": "Kazimir Severinovich Malevich (23 February 1879 – 15 May 1935) was a Russian painter and art theoretician. He was a pioneer of geometric abstract art and the originator of the avant-garde, Suprematist movement.",
+				"img": "https://robotfication.files.wordpress.com/2014/11/31580f8f4d7cf30b541e3197213d710e.jpg",
+				"gallery": [
+					"https://pbs.twimg.com/media/B8g2wjoCYAIPjd1.jpg:large",
+					"http://upload.wikimedia.org/wikipedia/commons/e/e3/%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82._%D0%9E%D0%BA.1923._%D0%93%D0%A0%D0%9C.png",
+					"http://glotime.tv/wp-content/uploads/2014/07/Head_of_a_Peasant_Girl.jpg"
+				]
+			} ,
+			{
+				"id": 3,
+				"name": "Lucas Cranach the Elder",
+				"genre": "Early Renaissance",
+				"epoch": "Renaissance",
+				"bio": "Lucas Cranach the Elder  c. 1472 – 16 October 1553) was a German Renaissance painter and printmaker in woodcut and engraving. He was court painter to the Electors of Saxony for most of his career, and is known for his portraits, both of German princes and those of the leaders of the Protestant Reformation, whose cause he embraced with enthusiasm, becoming a close friend of Martin Luther. He also painted religious subjects, first in the Catholic tradition, and later trying to find new ways of conveying Lutheran religious concerns in art.",
+				"img": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Lucas_Cranach_d._%C3%84._063.jpg/760px-Lucas_Cranach_d._%C3%84._063.jpg",
+				"gallery": [
+					"http://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Lucas_Cranach_the_Elder_-_Apoll_und_Diana_in_waldiger_Landschaft_-_Google_Art_Project.jpg/696px-Lucas_Cranach_the_Elder_-_Apoll_und_Diana_in_waldiger_Landschaft_-_Google_Art_Project.jpg",
+					"http://im3.kommersant.ru/Issues.photo/CORP/2014/08/21/KMO_121006_00797_1_t210_190828.jpg",
+					"http://upload.wikimedia.org/wikipedia/commons/b/bd/AdamEveParadiseCranach.jpg"
+				]
+			} ,
+			{
+				"id": 4,
+				"name": "Marcel Duchamp",
+				"genre": "Anti-art",
+				"epoch": "Modernism",
+				"bio": "Marcel Duchamp  (28 July 1887 – 2 October 1968) was a French, naturalized American painter, sculptor, chess player, and writer whose work is associated with Dadaism (anti-art) and conceptual art, although careful about his use of the term Dada and direct association with Dada groups. Duchamp is commonly regarded, along with Pablo Picasso and Henri Matisse, as one of the three artists who helped to define the revolutionary developments in the plastic arts in the opening decades of the twentieth century, responsible for significant developments in painting and sculpture. Duchamp has had an immense impact on twentieth-century and twenty first-century art. By World War I, he had rejected the work of many of his fellow artists (like Henri Matisse) as \"retinal\" art, intended only to please the eye. Instead, Duchamp wanted to put art back in the service of the mind.",
+				"img": "http://uploads2.wikiart.org/images/marcel-duchamp.jpg",
+				"gallery": [
+					"http://www.artandcointv.com/imageUploads/GreatMasters/FOUNTAIN.jpg",
+					"https://artislimited.files.wordpress.com/2013/05/duchamp-mona-lisa-lhooq.jpg?w=652&h=1030",
+					"http://1.bp.blogspot.com/-carRQxXAPSI/UmfqIXb8LAI/AAAAAAAAGhw/h8-9j5tZvzg/s1600/3333.jpg"
+				]
+			},
+			{
+				"id": 5,
+				"name": "Frida Kahlo",
+				"genre": "Primitivism",
+				"epoch": "Modernism",
+				"bio": "Frida Kahlo de Rivera (July 6, 1907 – July 13, 1954) was a Mexican painter who is best known for her self-portraits. Mexican culture and Amerindian cultural tradition are important in her work, which has been sometimes characterized as naive art or folk art. Her work has also been described as surrealist, and in 1938 André Breton, principal initiator of the surrealist movement, described Kahlo\"s art as a \"ribbon around a bomb\". Frida rejected the \"surrealist\" label; she believed that her work reflected more of her reality than her dreams.",
+				"img": "http://rupo.ru/i/msg_i/3122/02.jpg",
+				"gallery": [
+					"https://classconnection.s3.amazonaws.com/208/flashcards/1234208/jpg/hale1335520545132.jpg",
+					"https://s-media-cache-ak0.pinimg.com/736x/6a/c3/38/6ac338e855dd1d13252af727a0e637d3.jpg",
+					"http://www.tuttigliuominidilola.it/wp-content/uploads/2013/01/raices-de-frida-kahlo.jpg"
+				]
+			}
+		]

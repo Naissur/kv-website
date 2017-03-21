@@ -1,0 +1,296 @@
+::selection {
+  background: #D35B61; /* WebKit/Blink Browsers */
+  color: white;
+}
+::-moz-selection {
+  background: #D35B61; /* Gecko Browsers */
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-size: 1.0em;
+  font-family: 'Open Sans', sans-serif;
+  /* font-weight: 600; */
+
+  box-sizing: border-box;
+}
+
+.clearfix{
+  clear: both;
+}
+
+body, html{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+@keyframes background {
+  from {
+    background-position: -20px 0px;
+  }
+  10% {
+    background-position: 0px 0px;
+  }
+  to {
+    background-position: 0px 0px;
+  }
+}
+
+body{
+  background-position: 0px;
+  background: url("../res/pattern_3.png");
+  image-rendering: pixelated;
+  background-attachment: fixed;
+  word-break: break-word;
+
+  animation-name: background;
+  animation-duration: 4s;
+}
+
+.index-page-link {
+  cursor: pointer;
+  text-align: left;
+}
+
+a {
+  font-size: 1em;
+}
+
+b {
+  font-size: 1.0em;
+  font-weight: 400;
+}
+
+hr {
+  height: 1px;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  padding: 16px;
+
+  display: inline-block;
+  /* list-style-type: none; */
+
+  padding: 8px 66px;
+}
+
+li {
+  max-width: 660px;
+
+  font-size: 1em;
+  text-align: left;
+}
+
+h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 16px;
+  padding-left: 16px;
+
+  margin-bottom: 16px;
+  margin-top: 0px;
+
+  font-size: 2.0em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+h2{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 30px;
+  padding-left: 30px;
+
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  /* text-transform: uppercase; */
+}
+
+h3{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 30px;
+  padding-left: 30px;
+
+  font-size: 1.2em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p{
+  text-align: left;
+  margin: auto;
+  margin-top: 36px;
+  max-width: 660px;
+  padding-right: 50px;
+  padding-left: 50px;
+
+  font-size: 1.0em;
+  /* font-weight: 700; */
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page-wrapper{
+  margin:auto;
+  margin-top: 10px;
+  margin-bottom: 150px;
+  max-width: 1000px;
+
+  padding: 16px;
+  padding-bottom: 24px;
+
+  background-color: white;
+  box-shadow: #000 0px 12px 40px;
+
+  font-weight: 300;
+  color: rgba(0,0,0,0.8);
+}
+
+.intro{
+  padding-top: 10px;
+  padding-bottom: 0px;
+
+}
+
+.skills{
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+
+.works{
+  margin-bottom: 80px;
+  padding-bottom: 50px;
+
+  font-size: 0;
+}
+
+.works > .container{
+  width: 960px;
+
+  margin: auto;
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+
+  perspective: 1000px;
+}
+
+.works__work{
+  position: relative;
+  display: inline-block;
+
+  width: 410px;
+  max-width: 100%;
+
+  cursor: pointer;
+
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+
+  transition: all 0.2s;
+
+  text-align: center;
+}
+
+.works__work > img{
+  max-width: 100%;
+  -webkit-filter: grayscale(0.8);
+  box-shadow: rgba(0,0,0,0.0) 0px 2px  14px;
+  transition: all 0.2s, -webkit-filter 0.4s;
+  transform-origin: center center;
+  -moz-transform-origin: center center;
+  -webkit-transform-origin: center center;
+}
+
+.works__work:hover > img{
+  box-shadow: rgba(0,0,0,0.5) 0px 2px  14px;
+  transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.contacts{
+  margin-top: 50px;
+  background-color: #7D7136;
+  padding: 36px;
+  padding-left: 48px;
+  padding-top: 30px;
+  text-align: start;
+}
+
+.contacts p{
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1280px){
+  .page-wrapper{
+    width: 94%;
+  }
+}
+
+@media screen and (max-width: 1060px){
+  .works > .container{
+    width: 100%;
+  }
+
+  .works > .container > img{
+    float: none;
+  }
+
+  .works__work{
+    float: none;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+}
+
+@media screen and (max-width: 800px){
+  h1{
+    font-size: 2.0em;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+  p{
+    margin: 24px;
+    font-size: 1.0em;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .page-wrapper{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px){
+  /*h1{
+  font-size: 3em;
+  }
+  h2{
+  font-size: 1.5em;
+  }*/
+  p{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    font-size: 1.0em;
+}
+}

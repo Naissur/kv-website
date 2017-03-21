@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+	<title>PunkPrint</title>
+	<meta charset="utf-8">
+	<!--<meta name="viewport" content="width='device-width'">-->
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="page-wrapper">
+		<div class="header organism_header">
+			<a href="index.html" class="atom_heading-1">PunkPrint</a>
+
+			<div class="molecule_profile-box">
+				<img class="atom_img" src="res/avatar.jpg">
+				<h2 class="atom_heading-2">Naissur</h2>
+				<button class="atom_button atom_button--primary">Профиль</button>
+			</div>
+		</div>
+
+
+		<div class="navbar organism_navbar">
+			<div class="molecule_menu">
+				<button onclick="location.href='index.html'" class="atom_menu-item">Новости</button>
+				<button onclick="location.href='offers.html'" class="atom_menu-item">Услуги</button>
+				<button onclick="location.href='order.html'" class="atom_menu-item">Сделать заказ</button>
+				<button class="atom_menu-item">Личный кабинет</button>
+				<button class="atom_menu-item">Статус заказа</button>
+				<button onclick="location.href='about.html'" class="atom_menu-item">О нас</button>
+			</div>
+		</div>
+
+		<div class="order">
+			<h2 class="atom_heading-2">
+				Сделать заказ
+			</h2>
+
+			<p class="atom_paragraph">
+				Вид
+				<select class="atom_select" id='print_type' name='print_type' size='1' onchange='change_print_type(this.value)'>
+					<option selected='selected' value='1'>Печать документов</option>
+					<option value='8'>Сканирование/Ксерокс</option>
+					<option value='2'>Печать фотографий</option>
+					<option value='3'>Печать визиток</option>
+					<option value='4'>Футболки</option>
+					<option value='5'>Магниты</option>
+					<option value='6'>Наклейки</option>
+					<option value='7'>Фото на документы</option>
+				</select>
+			</p>
+			<p class="atom_paragraph">Срочность
+				<select class="atom_select" id='sroch' name='sroch' size='1' onchange=''>
+					<option selected='selected' value='7'>Могу ждать пару дней</option>
+					<option value='1'>Укажу в комментарии</option>
+				</select>
+			</p>
+			<p id="atom_paragraph--commentaries" class="atom_paragraph">Комментарии к заказу</p>
+				<textarea cols="43" rows="5" class="atom_textarea"></textarea>
+			</p>
+			<button class="atom_button--secondary">
+				Заказать!
+			</button>
+		</div>
+
+		<div class="footer organism_footer">
+			<p class="atom_paragraph">PunkPrint, 2015</p>
+		</div>
+	</div>
+</body>
+</html>

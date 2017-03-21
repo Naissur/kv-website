@@ -1,0 +1,644 @@
+/*Declaring atoms*/
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Exo 2"), local("Exo2-Regular"), url(http://fonts.gstatic.com/s/exo2/v3/pEbpp8gu02JrI5SDG9jj6g.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Exo 2"), local("Exo2-Regular"), url(http://fonts.gstatic.com/s/exo2/v3/sZoRRDfBcJL9e6dHdMU_Tg.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Exo 2"), local("Exo2-Regular"), url(http://fonts.gstatic.com/s/exo2/v3/-A4eIjQkAwKL411pgtQ4VA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+.clearfix {
+  width: 100%;
+  clear: both; }
+
+.atom_img {
+  width: 100%;
+  max-width: 60px; }
+
+.atom_img:hover {
+  cursor: pointer; }
+
+/*Button, <button>*/
+.atom_button, .atom_button--primary, .atom_button--primary--disabled, .atom_button--secondary {
+  width: 120px;
+  box-sizing: border-box;
+  padding-top: 6px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  word-wrap: break-word;
+  background-color: #fff;
+  border: #444 1px solid;
+  border-radius: 7px;
+  color: #222;
+  font-family: sans-serif;
+  font-size: 1.0rem;
+  text-decoration: none;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s; }
+
+.atom_button:hover, .atom_button--primary:hover, .atom_button--primary--disabled:hover, .atom_button--secondary:hover {
+  cursor: pointer;
+  transition: border-color 0.2s, background-color 0.2s;
+  -webkit-transition: border-color 0.2s, background-color 0.2s;
+  background-color: #444;
+  color: #fff; }
+
+.atom_button:active, .atom_button--primary:active, .atom_button--primary--disabled:active, .atom_button--secondary:active {
+  transition: border-color 0.0s, background-color 0.0s;
+  -webkit-transition: border-color 0.0s, background-color 0.0s;
+  background-color: #222;
+  border-color: #222;
+  color: #fff; }
+
+.atom_button:focus, .atom_button--primary:focus, .atom_button--primary--disabled:focus, .atom_button--secondary:focus {
+  outline: 0; }
+
+/*Button--primary, <button>*/
+.atom_button--primary, .atom_button--primary--disabled {
+  font: normal 300 1.2rem "Exo 2", Helvetica, Roboto, sans-serif;
+  background-color: #fff;
+  border: #8397B1 1px solid;
+  color: #647d9d; }
+
+.atom_button--primary:hover, .atom_button--primary--disabled:hover {
+  background-color: #8397B1;
+  color: #fff; }
+
+.atom_button--primary:active, .atom_button--primary--disabled:active {
+  background-color: #647d9d;
+  border-color: #647d9d; }
+
+.atom_button--primary--disabled {
+  color: white;
+  background-color: #a2b1c5; }
+
+.atom_button--primary--disabled:hover {
+  color: white;
+  background-color: #8397B1; }
+
+/*Button--secondary, <button>*/
+.atom_button--secondary {
+  font: normal 300 1.2rem "Exo 2", Helvetica, Roboto, sans-serif;
+  background-color: #fff;
+  border: #9BB967 1px solid;
+  color: #82a24b; }
+
+.atom_button--secondary:hover {
+  background-color: #9BB967;
+  color: #fff; }
+
+.atom_button--secondary:active {
+  background-color: #82a24b;
+  border-color: #82a24b; }
+
+/*Inputs, <input>*/
+.atom_input {
+  width: 120px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 4px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+  border: #8397B1 1px solid;
+  font: normal 500 1.3rem "Exo 2", Helvetica, Roboto, sans-serif;
+  font-size: 1.0rem;
+  color: #647d9d; }
+
+.atom_input:focus {
+  outline: 0; }
+
+.atom_input:input-placeholder {
+  color: #8397B1; }
+
+/*Heading-1, <h1>*/
+.atom_heading-1 {
+  font: normal 500 3rem "Exo 2", Helvetica, Roboto, sans-serif;
+  color: #444;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+/*Heading-2, <h2>*/
+.atom_heading-2 {
+  font: normal 500 2rem "Exo 2", Helvetica, Roboto, sans-serif;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+/*Heading-3, <h3>*/
+.atom_heading-3 {
+  font: normal 500 1.5rem "Exo 2", Helvetica, Roboto, sans-serif;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+/*Paragraphs, <p>*/
+.atom_paragraph, .atom_table, .atom_select {
+  font: normal 300 1.2rem "Exo 2", Helvetica, Roboto, sans-serif;
+  color: #222;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+/*Dropdown menu, <div>  </div>*/
+.atom_menu-item {
+  width: 170px;
+  text-align: left;
+  /*border: $color_primary 2px solid;*/
+  border: 0;
+  padding-bottom: 11px;
+  padding-top: 9px;
+  padding-left: 12px;
+  box-sizing: border-box;
+  font: normal 300 1.1rem "Exo 2", Helvetica, Roboto, sans-serif;
+  color: #8397B1;
+  transition: all 0.2s;
+  word-wrap: break-word;
+  -webkit-transition: all 0.2s;
+  background-color: white; }
+
+.atom_menu-item:hover {
+  cursor: pointer;
+  background-color: #8397B1 !important;
+  color: white !important; }
+
+.atom_menu-item:active {
+  transition: all 0;
+  -webkit-transition: all 0;
+  background-color: #647d9d !important; }
+
+.atom_menu-item:focus {
+  outline: 0; }
+
+/*Menu Item, <div> <img> </div>*/
+.atom_menu-head {
+  border: #a2b1c5 1px solid;
+  display: inline-block;
+  box-sizing: border-box;
+  font: normal 300 1.3rem "Exo 2", Helvetica, Roboto, sans-serif;
+  color: #8397B1;
+  background-color: white;
+  width: 170px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 12px;
+  word-wrap: break-word;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out; }
+
+.atom_menu-head:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #a2b1c5;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out; }
+
+.atom_menu-head:active {
+  background-color: #647d9d;
+  transition: all 0.0s ease-out;
+  -webkit-transition: all 0.0s ease-out; }
+
+.atom_menu-head:focus {
+  outline: 0; }
+
+.atom_table {
+  width: 100%;
+  border-collapse: collapse;
+  /*border: $color_primary--light 1px solid;*/
+  border: 0;
+  font: normal 300 1rem "Exo 2", Helvetica, Roboto, sans-serif; }
+  .atom_table .atom_table__head {
+    font: normal 500 1rem "Exo 2", Helvetica, Roboto, sans-serif;
+    border-bottom: #d1d9e2 1px solid; }
+  .atom_table th {
+    font: normal 500 1rem "Exo 2", Helvetica, Roboto, sans-serif;
+    padding: 4px;
+    padding-bottom: 5px;
+    padding-top: 5px; }
+  .atom_table td {
+    font: normal 300 1rem "Exo 2", Helvetica, Roboto, sans-serif;
+    font-weight: 300;
+    padding: 4px;
+    padding-bottom: 5px;
+    padding-top: 5px; }
+  .atom_table .atom_table__done {
+    color: #82a24b; }
+
+.atom_select {
+  border: #a2b1c5 1px solid;
+  padding: 5px;
+  padding-top: 4px;
+  padding-bottom: 6px;
+  background-color: white;
+  color: #647d9d;
+  font: normal 300 1.2rem "Exo 2", Helvetica, Roboto, sans-serif; }
+  .atom_select option:hover {
+    color: white;
+    background-color: #8397B1; }
+
+.atom_textarea {
+  resize: none;
+  border: #a2b1c5 1px solid;
+  color: #283240;
+  font: normal 500 1.3rem "Exo 2", Helvetica, Roboto, sans-serif;
+  margin-bottom: 5px;
+  margin-top: 5px; }
+
+.atom_checkbox {
+  width: 18px;
+  height: 18px;
+  margin: 5px 5px;
+  position: relative; }
+
+.atom_checkbox + label {
+  margin-top: 2px; }
+
+/*Labels, <label>*/
+.atom_label {
+  font: normal 300 1.2rem "Exo 2", Helvetica, Roboto, sans-serif;
+  color: #222;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+/* UL, <ul> */
+.atom_ul {
+  font: normal 300 1.2rem "Exo 2", Helvetica, Roboto, sans-serif;
+  color: #222;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+::selection {
+  color: white;
+  background: #647d9d; }
+
+::-moz-selection {
+  color: white;
+  background: #647d9d; }
+
+/*Header*/
+.organism_header {
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(65, 106, 159, 0.28);
+  padding: 10px; }
+  .organism_header > .atom_heading-1 {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 38px;
+    margin-bottom: 22px;
+    margin-left: 32px;
+    color: white;
+    float: left;
+    text-shadow: #333333 1px 1px 1px; }
+  .organism_header .molecule_profile-box {
+    display: inline-block;
+    float: right;
+    margin-right: 2%;
+    box-shadow: #666 0px 2px 5px; }
+  @media screen and (max-width: 1150px) {
+    .organism_header > .atom_heading-1 {
+      font: normal 500 2rem "Exo 2", Helvetica, Roboto, sans-serif;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 15px; } }
+
+/*Navigation Bar*/
+.organism_navbar {
+  width: 170px;
+  box-shadow: #bbb 0px 1px 2px;
+  background-color: white; }
+  .organism_navbar .molecule_menu {
+    width: 170px;
+    height: auto;
+    font-size: 0;
+    /* Fix gaps between inline-blocks */ }
+    .organism_navbar .molecule_menu .container {
+      margin-bottom: -1px; }
+  .organism_navbar .molecule_menu:last-child .container {
+    margin-bottom: 0px; }
+
+.organism_news {
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width: 800px; }
+  .organism_news .molecule_single-news + .molecule_single-news {
+    border-top: 0; }
+
+.organism_footer {
+  width: 100%;
+  height: 100px;
+  clear: both;
+  background-color: rgba(65, 106, 159, 0.28); }
+  .organism_footer .atom_paragraph, .organism_footer .atom_table, .organism_footer .atom_select {
+    padding-top: 38px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.7) 1px 1px 3px; }
+
+.organism_offers {
+  padding: 20px; }
+  .organism_offers .organism_navbar {
+    float: left;
+    height: 700px; }
+  .organism_offers .molecule_single-offer {
+    max-width: 560px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s; }
+
+/*Menu*/
+.molecule_menu {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 160px;
+  height: auto;
+  transition: all 0.9s ease-out;
+  -webkit-transition: all 0.9s ease-out;
+  background-color: white;
+  overflow: hidden;
+  display: block; }
+  .molecule_menu .container {
+    font-size: 0;
+    /* fix gaps between items */
+    border: 0;
+    width: 100%;
+    margin-top: 0px;
+    /*max-height: 0px;*/
+    overflow: hidden;
+    background-color: white;
+    color: #647d9d;
+    /*transition: height 0.3s ease-in;
+    -webkit-transition: height 0.3s ease-in;*/ }
+  .molecule_menu .atom_menu-head {
+    width: 100%; }
+
+.molecule_menu:hover .atom_menu-head {
+  background-color: #a2b1c5;
+  color: white; }
+.molecule_menu:hover .container .atom_menu-item {
+  background-color: #d1d9e2;
+  color: white; }
+
+.molecule_single-news:last-child {
+  border-bottom: 0; }
+
+.molecule_single-news {
+  padding-bottom: 60px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  border-bottom: #a2b1c5 1px solid;
+  overflow: hidden; }
+  .molecule_single-news .atom_heading-2 {
+    margin-bottom: 20px; }
+  .molecule_single-news .atom_img {
+    max-width: 280px;
+    width: auto;
+    height: auto;
+    float: left;
+    margin: 10px; }
+  .molecule_single-news .atom_button, .molecule_single-news .atom_button--primary, .molecule_single-news .atom_button--primary--disabled, .molecule_single-news .atom_button--secondary {
+    margin-top: 30px;
+    margin-left: 10px;
+    clear: left;
+    float: left;
+    width: 150px; }
+  .molecule_single-news .atom_paragraph, .molecule_single-news .atom_table, .molecule_single-news .atom_select {
+    margin-left: 320px;
+    padding-top: 10px; }
+
+/*Profile box */
+.molecule_profile-box {
+  border: 0;
+  box-shadow: #bbb 0px 1px 2px;
+  background-color: white;
+  padding: 15px;
+  width: auto;
+  display: inline-block; }
+  .molecule_profile-box .atom_img {
+    width: 60px;
+    height: 60px;
+    float: left; }
+  .molecule_profile-box .atom_heading-2 {
+    margin-top: 5px;
+    margin-left: 20px;
+    float: left;
+    max-width: 200px;
+    word-wrap: break-word; }
+  .molecule_profile-box .atom_button, .molecule_profile-box .atom_button--primary, .molecule_profile-box .atom_button--primary--disabled, .molecule_profile-box .atom_button--secondary {
+    margin-top: 12px;
+    width: 100%; }
+  @media screen and (max-width: 1150px) {
+    .molecule_profile-box {
+      padding: 10px;
+      box-shadow: none !important; }
+      .molecule_profile-box .atom_button, .molecule_profile-box .atom_button--primary, .molecule_profile-box .atom_button--primary--disabled, .molecule_profile-box .atom_button--secondary {
+        display: none; }
+      .molecule_profile-box .atom_img {
+        width: 40px;
+        height: 40px; }
+      .molecule_profile-box .atom_heading-2 {
+        font: normal 500 1.5rem "Exo 2", Helvetica, Roboto, sans-serif;
+        margin-bottom: 0; } }
+
+.molecule_single-offer {
+  max-width: 600px;
+  /*max-height: 70vh;*/
+  margin-left: 195px;
+  margin-right: 10px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  position: relative; }
+  .molecule_single-offer .molecule_single-offer__overlay {
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #283240;
+    opacity: 0;
+    transition: opacity 400ms;
+    padding: 20px; }
+    .molecule_single-offer .molecule_single-offer__overlay .atom_paragraph, .molecule_single-offer .molecule_single-offer__overlay .atom_table, .molecule_single-offer .molecule_single-offer__overlay .atom_select,
+    .molecule_single-offer .molecule_single-offer__overlay .atom_heading-1,
+    .molecule_single-offer .molecule_single-offer__overlay .atom_heading-2,
+    .molecule_single-offer .molecule_single-offer__overlay .atom_ul {
+      color: white; }
+  .molecule_single-offer .atom_img {
+    cursor: default;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+    align: center; }
+  .molecule_single-offer .molecule_single-offer__desc {
+    display: block;
+    width: 100%;
+    padding-top: 11px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #d1d9e2;
+    color: white;
+    /*position: absolute;*/
+    top: 0px;
+    /*opacity: 0.76;*/
+    font-weight: 500; }
+  .molecule_single-offer .molecule_single-offer__price {
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #9BB967;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-weight: 500; }
+
+.molecule_single-offer:hover .molecule_single-offer__overlay {
+  opacity: 0.95; }
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  /*background: $url_background-image;
+  background-repeat: repeat;*/ }
+
+.page-wrapper {
+  box-shadow: #bbb 0px 1px 2px;
+  background: url("../res/light_back.png");
+  background-repeat: repeat;
+  background-color: #fafafa;
+  /*width: $breakpoint_1-val;*/
+  margin-left: 6%;
+  margin-right: 6%; }
+  @media screen and (max-width: 1150px) {
+    .page-wrapper {
+      margin-left: 0;
+      margin-right: 0; } }
+
+.navbar {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px; }
+  @media screen and (max-width: 1150px) {
+    .navbar {
+      width: 100%;
+      float: none;
+      margin: 0; }
+      .navbar .molecule_menu {
+        width: 100%;
+        padding: 0; }
+        .navbar .molecule_menu .atom_menu-item {
+          width: auto;
+          display: inline-block;
+          padding-right: 16px;
+          padding-left: 16px;
+          margin: 0; } }
+
+.news {
+  margin-left: 205px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  max-width: 800px;
+  background-color: white;
+  box-shadow: #bbb 0px 1px 2px; }
+  @media screen and (max-width: 1150px) {
+    .news {
+      margin: 30px auto; } }
+
+.offers {
+  margin-left: 175px;
+  padding-top: 10px; }
+  .offers .molecule_single-offer {
+    box-shadow: #bbb 0px 1px 2px; }
+  .offers .organism_navbar {
+    width: 160px;
+    height: 800px;
+    margin-left: 10px;
+    box-shadow: none;
+    background-color: transparent; }
+    .offers .organism_navbar .molecule_menu {
+      box-shadow: #bbb 0px 1px 2px;
+      width: 100%; }
+      .offers .organism_navbar .molecule_menu .container {
+        border: 0; }
+      .offers .organism_navbar .molecule_menu .atom_menu-item {
+        border: 0; }
+      .offers .organism_navbar .molecule_menu .atom_menu-head {
+        border: 0; }
+  @media screen and (max-width: 1150px) {
+    .offers {
+      display: block;
+      margin: 10px auto;
+      padding-left: 0;
+      padding-right: 0;
+      max-width: 768px; } }
+
+.about {
+  display: block;
+  margin-left: 205px;
+  margin-bottom: 100px;
+  margin-top: 10px;
+  padding: 30px;
+  max-width: 800px;
+  background-color: white;
+  box-shadow: #bbb 0px 1px 2px; }
+  .about .atom_heading-2 {
+    margin-top: 15px;
+    margin-bottom: 35px; }
+  @media screen and (max-width: 1150px) {
+    .about {
+      margin: 30px auto; } }
+
+.order {
+  margin-left: 215px;
+  margin-top: 10px;
+  padding: 20px;
+  box-shadow: #bbb 0px 1px 2px;
+  background-color: white;
+  width: 700px;
+  margin-bottom: 150px; }
+  .order .atom_select {
+    margin-left: 20px; }
+  .order p {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .order #atom_paragraph--commentaries {
+    margin-top: 18px;
+    margin-bottom: 18px; }
+  @media screen and (max-width: 1150px) {
+    .order {
+      margin: 30px auto; } }
+
+/*# sourceMappingURL=stylesheet.css.map */

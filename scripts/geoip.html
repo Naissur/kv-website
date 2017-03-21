@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+	<head>
+	</head>
+	<body>
+	</body>
+	<script type="application/javascript">
+		function getip(json){
+			document.querySelector('body').innerHTML += json.country;
+		}
+	</script>
+	<script type="application/javascript" src="http://ip-api.com/json/?callback=getip"></script>
+</html>

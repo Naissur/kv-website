@@ -1,0 +1,480 @@
+<!doctype html>
+<html>
+<head>
+	<title>PunkPrint</title>
+	<meta charset="utf-8">
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="page-wrapper">
+		<div class="header organism_header">
+			<a href="index.html" class="atom_heading-1">PunkPrint</a>
+
+			<div class="molecule_profile-box">
+				<img class="atom_img" src="res/avatar.jpg">
+				<h2 class="atom_heading-2">Naissur</h2>
+				<button class="atom_button atom_button--primary">Профиль</button>
+			</div>
+		</div>
+
+
+		<div class="navbar organism_navbar">
+			<div class="molecule_menu">
+				<button onclick="location.href='index.html'" class="atom_menu-item">Новости</button>
+				<button onclick="location.href='offers.html'" class="atom_menu-item">Услуги</button>
+				<button onclick="location.href='order.html'" class="atom_menu-item">Сделать заказ</button>
+				<button class="atom_menu-item">Личный кабинет</button>
+				<button class="atom_menu-item">Статус заказа</button>
+				<button onclick="location.href='about.html'" class="atom_menu-item">О нас</button>
+			</div>
+		</div>
+
+		<div class="offers organism_offers">
+			<div class="organism_navbar">
+				<div class="molecule_menu">
+					<button class="atom_menu-head">Документы</button>
+					<div class="container">
+						<button data-id="1" class="atom_menu-item">A4</button>
+						<button data-id="2" class="atom_menu-item">A3+</button>
+						<button data-id="3" class="atom_menu-item">Ксерокопия и сканирование</button>
+						<button data-id="4" class="atom_menu-item">Брошюровка</button>
+						<button data-id="5" class="atom_menu-item">Ламинирование</button>
+						<button data-id="6" class="atom_menu-item">Резка</button>
+					</div>
+				</div>
+				<div class="molecule_menu">
+					<button class="atom_menu-head">Фотографии</button>
+					<div class="container">
+						<button data-id="7" class="atom_menu-item">Печать фотографий</button>
+						<button data-id="8" class="atom_menu-item">Фото на документы</button>
+					</div>
+				</div>
+				<div class="molecule_menu">
+					<button class="atom_menu-head">Книги, буклеты</button>
+					<div class="container">
+						<button data-id="9" class="atom_menu-item">Книги</button>
+						<button data-id="10" class="atom_menu-item">Каталоги, буклеты</button>
+					</div>
+				</div>
+				<div class="molecule_menu">
+					<button class="atom_menu-head">Прочее</button>
+					<div class="container">
+						<button data-id="11" class="atom_menu-item">Печать на футболках</button>
+						<button data-id="12" class="atom_menu-item">Магниты</button>
+					</div>
+				</div>
+			</div>
+
+
+			<div data-id="1" class="molecule_single-offer">
+				<div class="molecule_single-offer__overlay">
+					<h2 class="atom_heading-2">Печать A4</h2>
+					<table class="atom_table" >
+						<tr>
+							<td  align=center>Формат</td>
+							<td  align=center>Количество<br>страниц</td>
+							<td align=center >Черно-белая</td>
+							<td colspan=2 align=center>
+								Цветная
+							</td>
+						</tr>
+
+						<tr>
+							<td align=center><b>A4</b></td>
+							<td align=center>любое</td>
+							<td align=center><b>1.856 руб.</b></td>
+							<td colspan='2' align=center><b>3 руб. - 13 руб.</b></td>
+						</tr>
+					</table>
+				</div>
+				<h2 class="molecule_single-offer__desc atom_heading-2">Печать A4</h2>
+				<img class="atom_img" src="res/offer_a4.jpg">
+				<h3 class="molecule_single-offer__price atom_heading-3">
+				Ч/б - 1.85 р./стр.
+				<br>
+				Цветная - 3-13 р./стр.
+				</h3>
+			</div>
+			<div data-id="2" class="molecule_single-offer">
+				<div class="molecule_single-offer__overlay">
+					<h2 class="atom_heading-2">Печать A3+</h2>
+					<p style="font-size:1.0rem"class="atom_paragraph">
+						Предлагаем вам широкоформатную печать размер А3 и А3+ (30 x 42 см). Грандиозные объявления,
+						замечательные календари и плакаты, оформление стендов и выставок, общие фотографии, подарочная упаковка и многое другое. Реализуйте
+						все ваши мечты по доступной цене!
+					</p>
+
+					<table class="atom_table">
+					<tr><th align=center>Тип бумаги</th> <th align=center>Кол-во</th> <th align=center>Цветность</th> <th align=center>Стоимость</th></tr>
+					<tr><td align=center>Обычная офисная</td> <td align=center>1 стр.</td> <td align=center>Цвет/ЧБ</td><td align=center><b>60 руб.</b></td></tr>
+					<tr><td align=center>Фотобумага матовая</td> <td align=center>1 стр.</td> <td align=center>Цвет/ЧБ</td> <td align=center><b>165 руб.</b></td></tr>
+					<tr><td align=center>Фотобумага глянцевая</td> <td align=center>1 стр.</td> <td align=center>Цвет/ЧБ</td> <td align=center><b>190 руб.</b></td></tr>
+					</table>
+
+				</div>
+
+				<h2 class="molecule_single-offer__desc atom_heading-2">Печать A3+</h2>
+				<img class="atom_img" src="res/offer_a3.jpg">
+				<h3 class="molecule_single-offer__price atom_heading-3">60 р./стр.</h3>
+			</div>
+			<div data-id="3" class="molecule_single-offer">
+				<div class="molecule_single-offer__overlay">
+					<h2 class="atom_heading-2">Ксерокопирование / сканирование</h2>
+					<br>
+					<ul class="atom_paragraph">
+						<li>
+							Ксерокопирование по цене отпечатка
+						<li>
+							Сканирование  <b>3 руб./стр.</b> (запись на флешку, отправка на почту)
+						</li>
+					</ul>
+				</div>
+				<h2 class="molecule_single-offer__desc atom_heading-2">Ксерокопирование / сканирование</h2>
+				<img class="atom_img" src="res/offer_xerox.jpg">
+				<h3 class="molecule_single-offer__price atom_heading-3">Сканирование - 3 р./стр.</h3>
+			</div>
+			<div data-id="4" class="molecule_single-offer">
+				<div class="molecule_single-offer__overlay">
+					<h2 class="atom_heading-2">Брошюровка/переплет</h2>
+					<p class="atom_paragraph">
+						Брошюровка на пластиковую пружину дипломов, курсовых, отчетов, книг и т.д.
+						<br>
+						Цена за 1 экземпляр - <b>250 р.</b>
+						<br>
+						В стоимость входит:
+						<ul class="atom_ul">
+						<li>
+						Брошюровка
+						</li>
+						<li>
+						Передняя цветная матовая/глянцевая плотная обложка из вашего титульника
+						</li>
+						<li>
+						Прозрачная защитная обложка
+						</li>
+						<li>
+						Задняя плотная обложка с текстурой "кожа"
+						</li>
+						<ul class="atom_ul">
+					</p>
+				</div>
+				<h2 class="molecule_single-offer__desc atom_heading-2">Брошюровка/переплет</h2>
+				<img class="atom_img" src="res/offer_brochure.jpg">
+				<h3 class="molecule_single-offer__price atom_heading-3">
+				На пластиковую пружину - 250 р.
+				<br>
+				На скобу - 30 р.
+				</h3>
+			</div>
+			<div data-id="5" class="molecule_single-offer">
+				<div class="molecule_single-offer__overlay">
+					<h2 class="atom_heading-2">Ламинирование документов, фотографий, пропусков, карточек, и т.д. </h2>
+					<p class="atom_paragraph">
+						Стоимость ламинирования одного листа формата А4 (с одной стороны) - <b>30 р.</b>
+					</p>
+				</div>
+				<h2 class="molecule_single-offer__desc atom_heading-2">Ламинирование</h2>
+				<img class="atom_img" src="res/offer_lamination.jpg">
+				<h3 class="molecule_single-offer__price atom_heading-3">A4 - 30 р./стр.</h3>
+			</div>
+			<div data-id="6" class="molecule_single-offer">
+				<div class="molecule_single-offer__overlay">
+				<h2 class="atom_heading-2">Резка</h2>
+				<p class="atom_paragraph">
+					Нарезка буклетов, шпаргалок, листовок, объявлений, фотографий, карточек, раздаток и т.д.
+				</p>
+				</div>
+				<h2 class="molecule_single-offer__desc atom_heading-2">Резка бумаги</h2>
+				<img class="atom_img" src="res/offer_cut.jpg">
+			</div>
+			<div data-id="7" class="molecule_single-offer">
+				<div class="molecule_single-offer__overlay">
+					<h2 class="atom_heading-2">Печать фотографий</h2>
+					<table class="atom_table" style="width:100%; max-width: 900px" width="100%" border="0" style="border-color:#dcf5f2;border-collapse:collapse;">
+					<tbody>
+						<tr class="atom_table__head">
+							<th align="center">Формат</th>
+							<th align="center">Количество</th>
+							<th align="center">Матовая</th>
+							<th align="center">Глянцевая</th>
+							<th align="center">Супер Глянцевая</th>
+						</tr>
+						<tr>
+							<td align="center">10x15</td>
+								<td>
+									<table align="center" border="0">
+										<tbody><tr><td align="center">1 - 50</td></tr>
+										<tr><td align="center"> &gt;50 </td></tr>
+									</tbody></table>
+								</td>
+							<td>
+								<table align="center" border="0">
+									<tbody><tr><td align="center">7 руб.</td></tr>
+									<tr><td align="center">6 руб.</td></tr>
+								</tbody></table>
+							</td>
+							<td>
+								<table align="center" border="0">
+									<tbody><tr><td align="center">7 руб.</td></tr>
+									<tr><td align="center">6 руб.</td></tr>
+								</tbody></table>
+							</td>
+							<td width="100px">
+								<table align="center" border="0">
+									<tbody><tr><td align="center">9 руб.</td></tr>
+									<tr><td align="center">8 руб.</td></tr>
+								</tbody></table>
+							</td>
+						</tr>
+
+						<tr>
+							<td align="center">A4</td>
+							<td align="center">любое</td>
+							<td valign="top" align="center">
+								<table>
+									<tbody>
+									<tr><th align="center" colspan="3">Плотность</th></tr>
+									<tr><td align="center">130</td><td align="center">200</td><td align="center">230</td></tr>
+									<tr>
+										<td align="center">30 руб.</td>
+										<td align="center">35 руб.</td>
+										<td align="center">40 руб.</td>
+									</tr>
+									</tbody>
+								</table>
+							</td>
+							<td valign="top" align="center">
+								<table>
+									<tbody>
+									<tr><th align="center" colspan="2">Плотность</th></tr>
+									<tr><td align="center">150</td><td align="center">230</td></tr>
+									<tr>
+										<td align="center">40 руб.</td>
+										<td align="center">45 руб.</td>
+									</tr>
+									</tbody>
+								</table>
+							</td>
+							<td valign="top" width="100px" align="center">
+								<table>
+									<tbody>
+									<tr><th align="center">Плотность</th></tr>
+									<tr><td align="center">260</td></tr>
+										<tr>
+											<td align="center">50 руб.</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+					</table>
+				</div> <!-- end of overlay -->
+
+				<h2 class="molecule_single-offer__desc atom_heading-2">Печать фотографий</h2>
+				<img class="atom_img" src="res/offer_photos.jpg">
+				<h3 class="molecule_single-offer__price atom_heading-3">
+				10x15 - 7 р.
+				<br>
+				A4 - 40 р.
+				</h3>
+			</div>
+			<div data-id="8" class="molecule_single-offer">
+				<div class="molecule_single-offer__overlay">
+					<h2 class="atom_heading-2">
+						Фото на документы
+					</h2>
+					<p class="atom_paragraph">
+						Печать матовых / глянцевых, 30 x 40 мм / 35 x 45 мм / 37 x 47 мм / 50 x 50 мм фотографий на документы - <b>50 р.</b>
+					</p>
+					</div>
+					<h2 class="molecule_single-offer__desc atom_heading-2">
+						Фото на документы
+					</h2>
+					<img class="atom_img" src="res/offer_photos_docs.jpg">
+					<h3 class="molecule_single-offer__price atom_heading-3">
+						Матовая, глянцевая - 50 р.
+					</h3>
+				</div>
+			<div data-id="9" class="molecule_single-offer">
+				<div class="molecule_single-offer__overlay">
+					<h2 class="atom_heading-2">
+						Печать книг
+					</h2>
+					<p class="atom_paragraph">
+						Изготовим для вас книги любого формата (A4, A5, A6, свой).
+					</p>
+						<br>
+						<ul class="atom_ul">
+							<li>Красивая и яркая обложка </li>
+							<li>Возможность делать страницы - вставки </li>
+							<li>Помощь в получении ISBN и ISSN </li>
+						</ul>
+					<br>
+					<p class="atom_paragraph">
+						Печать от 1 экземпляра.
+					</p>
+				</div>
+				<h2 class="molecule_single-offer__desc atom_heading-2">
+					Печать книг
+				</h2>
+				<img class="atom_img" src="res/offer_books.jpg">
+				<!--<h3 class="molecule_single-offer__price atom_heading-3">
+				</h3>-->
+			</div>
+			<div data-id="10" class="molecule_single-offer">
+				<div class="molecule_single-offer__overlay">
+					<h2 class="atom_heading-2"> Печать каталогов, буклетов </h2>
+					<p class="atom_paragraph">Каталоги, буклеты, меню, раздаточный материал и т.д. Все что может понадобиться для Вашего события. Любой формат. Печать от 1 экземпляра. 
+					<br> 
+					<br> 
+					Обращайтесь!
+					</p>
+				</div>
+				<h2 class="molecule_single-offer__desc atom_heading-2">
+					Печать каталогов, буклетов
+				</h2>
+				<img class="atom_img" src="res/offer_booklet.jpg">
+				<!--<h3 class="molecule_single-offer__price atom_heading-3">
+				</h3>-->
+			</div>
+			<div data-id="11" class="molecule_single-offer">
+				<div class="molecule_single-offer__overlay">
+					<h2 class="atom_heading-2">
+						Печать на футболках
+					</h2>
+					<table class="atom_table">
+					<tr>
+						<th width="30%" colspan=1 align=center>Общая площадь картинок</th>
+						<th colspan=3 align=center>Ваша футболка</th>
+						<th colspan=3 align=center>Наша футболка</th>
+					</tr>
+					
+					<tr>
+						<td align=center>
+							<table class="atom_table">
+								<tr><td align=center>A3</td></tr>
+								<tr><td align=center>A4</td></tr>
+								<tr><td align=center>A5</td></tr>
+								<tr><td align=center>A6</td></tr>
+								<tr><td align=center>другой</td></tr>
+							</table>
+						</td>
+						
+						<td colspan=3 align=center>
+							<table class="atom_table">
+								<tr><td align=center><b>600 руб.</b></td></tr>
+								<tr><td align=center><b>500 руб.</b></td></tr>
+								<tr><td align=center><b>400 руб.</b></td></tr>
+								<tr><td align=center><b>300 руб.</b></td></tr>
+								<tr><td align=center><b>по договоренности</b></td></tr>
+							</table>
+						</td>
+
+						<td colspan=3 align=center>
+							<table class="atom_table">
+								<tr><td align=center><b>1100 руб.</b></td></tr>
+								<tr><td align=center><b>850 руб.</b></td></tr>
+								<tr><td align=center><b>700 руб.</b></td></tr>
+								<tr><td align=center><b>600 руб.</b></td></tr>
+								<tr><td align=center><b>по договоренности</b></td></tr>
+							</table>
+					</td>
+
+					</tr>
+					
+					
+					<tr>
+						
+
+						</table>
+					</div>
+
+				<h2 class="molecule_single-offer__desc atom_heading-2">
+					Печать на футболках
+				</h2>
+				<img class="atom_img" src="res/offer_shirts.jpg">
+				<h3 class="molecule_single-offer__price atom_heading-3">
+					A4 - 500 р.
+					<br>
+					A5 - 400 р.
+				</h3>
+			</div>
+			<div data-id="12" class="molecule_single-offer">
+				<div class="molecule_single-offer__overlay">
+					<h2 class="atom_heading-2">
+						Магниты
+					</h2>
+					<table class="atom_table">
+						<tr>
+							<td align="center"><b>Жесткий магнит</b></td>
+							<td align="center">
+								<table align="center" border="0">
+									<tbody>
+										<tr><td align="center">6 x 6 см</td></tr>
+										<tr><td align="center">7.5 x 5 см</td></tr>
+									</tbody>
+								</table>
+							</td>
+							<td colspan="3" align="center">
+								<table width="100%" align="center" border="0">
+									<tbody>
+										<tr> <td align="center">до 20 шт = <b>100 руб.</b></td> </tr>
+										<tr> <td align="center">от 21 шт = <b>85 руб.</b></td> </tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td align="center"><b>Гибкий магнит</b></td>
+							<td align="center">
+								<table align="center">
+									<tbody><tr><td align="center">&nbsp;</td></tr>
+									<tr><td align="center">&nbsp;</td></tr>
+									<tr><td align="center">10 x 6.5 см </td></tr>
+									<tr><td align="center">А4</td></tr>
+								</tbody></table>
+
+							</td>
+							<td colspan="3" align="center">
+								<table width="100%" align="center" border="0">
+									<tbody><tr><td align="center" colspan="2">Тип бумаги</td></tr>
+									<tr><td align="center">Матовая</td><td align="center">Глянцевая</td></tr>
+									<tr>
+										<td align="center"><b>50 руб.</b></td>
+										<td align="center"><b>70 руб.</b></td>
+									</tr>
+
+									<tr>
+										<td align="center"><b>400 руб.</b></td>
+										<td align="center"><b>500 руб.</b></td>
+									</tr>
+								</tbody></table>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<h2 class="molecule_single-offer__desc atom_heading-2">
+					Магниты
+				</h2>
+				<img class="atom_img" src="res/offer_magnets.jpg">
+				<h3 class="molecule_single-offer__price atom_heading-3">
+					6x6 см - 100 р.
+				</h3>
+			</div>
+
+			<div class="clearfix"></div>
+		</div>
+
+
+		<div class="footer organism_footer">
+			<p class="atom_paragraph">PunkPrint, 2015</p>
+		</div>
+
+	</div>
+	<script src="scripts/jquery-2.1.3.min.js"></script>
+	<script src="scripts/main.js"></script>
+</body>
+</html>

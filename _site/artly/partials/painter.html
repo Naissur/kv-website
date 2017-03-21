@@ -1,0 +1,14 @@
+<div class="painter-info">
+	<h2>{{currentPainter.name}}</h2>
+	<br>
+	<img class="painter-info__img" data-ng-src="{{currentPainter.img}}">
+	<hr>
+	<p class="painter-info__bio"> {{currentPainter.bio}} </p>
+</div>
+
+<div class="gallery">
+	<h2>Gallery</h2>
+	<div class="container">
+		<img data-ng-repeat="picture in currentPainter.gallery" class="gallery__img" ng-src="{{picture}}">
+	</div>
+</div>

@@ -1,0 +1,165 @@
+@import 'atoms/_atoms.scss';
+@import 'organisms/_organisms.scss';
+@import 'molecules/_molecules.scss';
+
+body{
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	/*background: $url_background-image;
+	background-repeat: repeat;*/
+}
+
+.page-wrapper{
+	box-shadow: #bbb 0px 1px 2px;
+	background: $url_background-image;
+	background-repeat: repeat;
+	background-color: #fafafa;
+	/*width: $breakpoint_1-val;*/
+	margin-left: 6%;
+	margin-right: 6%;
+
+	@media #{$breakpoint_1}{
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+.header{
+}
+
+.navbar{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+
+	@media #{$breakpoint_1}{
+		width: 100%;
+		float: none;
+		margin: 0;
+
+		.molecule_menu{
+			width: 100%;
+			padding: 0;
+			.atom_menu-item{
+				width: auto;
+				display: inline-block;
+				padding-right: 16px;
+				padding-left: 16px;
+				margin: 0;
+			}
+		}
+	}
+}
+
+.news{
+	margin-left: 205px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	max-width: 800px;
+	background-color: white;
+	box-shadow: #bbb 0px 1px 2px;
+	
+	@media #{$breakpoint_1}{
+		margin: 30px auto;
+	}
+}
+
+.footer{
+}
+
+.offers{
+	margin-left: 175px;
+	padding-top: 10px;
+
+	.molecule_single-offer{
+		box-shadow: #bbb 0px 1px 2px;
+	}
+
+	.organism_navbar{
+		width: 160px;
+		height: 800px;
+		margin-left: 10px;
+		box-shadow: none;
+		background-color: transparent;
+
+		.molecule_menu{
+			box-shadow: #bbb 0px 1px 2px;
+			width: 100%;
+
+			.container{
+				border: 0;
+			}
+
+			.atom_menu-item{
+				border: 0;
+			}
+			.atom_menu-head{
+				border: 0;
+			}
+		}
+	}
+
+	@media #{$breakpoint_1}{
+		display: block;
+		margin: 10px auto;
+		padding-left: 0;
+		padding-right: 0;
+		max-width: 768px;
+	}
+}
+
+.about{
+	display: block;
+	margin-left: 205px;
+	margin-bottom: 100px;
+	margin-top: 10px;
+	padding: 30px;
+	max-width: 800px;
+	background-color: white;
+	box-shadow: #bbb 0px 1px 2px;
+		
+	.atom_heading-2{
+		margin-top: 15px;
+		margin-bottom: 35px;
+	}
+
+	@media #{$breakpoint_1}{
+		margin: 30px auto;
+	}
+
+}
+
+.order{
+	margin-left: 215px;
+	margin-top: 10px;
+	padding: 20px;
+	box-shadow: #bbb 0px 1px 2px;
+	background-color: white;
+	width: 700px;
+	margin-bottom: 150px;
+
+	.atom_select{
+		margin-left: 20px;
+	}
+
+	p{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#atom_paragraph--commentaries{
+		margin-top: 18px;
+		margin-bottom: 18px;
+	}
+
+
+	@media #{$breakpoint_1}{
+		margin: 30px auto;
+	}
+
+}
+
+@media #{$breakpoint_1}{
+}
