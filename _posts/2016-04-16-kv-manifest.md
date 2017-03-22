@@ -38,7 +38,7 @@ The cost is **30%** higher than average on the freelance market, or individual a
 
 ## GOAL
 
-To join forces: in making what is **in our common interests**; and **avoid making things which any one of us dislikes**.
+To join forces: in making what is **in our common interests**; and **avoid making things which at least one of us dislikes**.
 
 
 ---
