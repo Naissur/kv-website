@@ -26,7 +26,7 @@ Anyone with hard problems. We are ready to work with each and every client.
 
 ## PLACE
 
-We can know each other, or you can know us either by [github](https://github.com/naissur), or common projects.
+We can know each other, or you can know us either by [github](https://github.com/naissur) or common projects.
 
 ---
 
