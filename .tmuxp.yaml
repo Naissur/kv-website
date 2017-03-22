@@ -1,0 +1,10 @@
+session_name: kv
+windows:
+- window_name: main
+  layout: main-vertical
+  panes:
+    - vim
+    - rvm use ruby-2.1.1 && make serve
+    - npm run livereload
+    -
+

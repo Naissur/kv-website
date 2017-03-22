@@ -1,0 +1,2 @@
+all:
+	sass css/styles.scss css/styles.css
