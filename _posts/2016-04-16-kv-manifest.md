@@ -12,7 +12,7 @@ This manifesto is a dynamic conflicts resolution, and decision making instrument
 
 ## US
 
-We are a company of two collegues.
+We are a company of two colleagues.
 
 We make predictable full-stack websites, with predictable deadlines, and resources.
 
@@ -38,7 +38,7 @@ The cost is **30%** higher than average on the freelance market, or individual a
 
 ## GOAL
 
-To join forces: in making what is **in our common interests**; and **avoid making thigs which any one of us dislikes**.
+To join forces: in making what is **in our common interests**; and **avoid making things which any one of us dislikes**.
 
 
 ---
@@ -48,13 +48,13 @@ To join forces: in making what is **in our common interests**; and **avoid makin
 - **Clarity in communication**
 - Use **battle-tested tools and methods**
 - Eliminate **painful spots**
-- We make predictable **business**. That means, we make a tool for **solving a specific problem**
+- We make predictable **business**. That means: we make a tool for **solving a specific problem**
 - **Business** >= product + clients
 - **Programming** is, first of all, a tool, solving a problem.
-- **Problems** are solved in the **most efficient way possible**, when this manifesto allows for it.
+- **Problems** are solved in the **most efficient way possible**, in accordance with this manifesto.
 - **Client's problem** is an optimization problem with **objective criteria**.
 - **Problem criteria**: *bounded, predictable* risks and *unbounded, unpredictable benefits*
-- When this document fails to resolve a conflict, the desicion is first made by the client, then by the CEO.
+- When this document fails to resolve a conflict, the decision is first made by the client, then by the CEO.
 
 ---
 
